@@ -3,7 +3,7 @@ import * as util from './util.js';
 
 let lastPage = util.getUrlParam('lastpage');
 
-const title = m('div').text('micro Online').addClass('display-4 my-5 text-center');
+const title = m('div').text('9ong').addClass('display-4 my-5 text-center');
 
 const Alerts = util.CreateAlerts();
 

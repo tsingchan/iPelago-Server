@@ -105,7 +105,7 @@ function search() {
 }
 function MsgItem(msg) {
     const MsgAlerts = util.CreateAlerts();
-    const datetime = dayjs.unix(msg.Time).format('YYYY-MM-DD HH:mm:ss');
+    const datetime = dayjs.unix(msg.Time).format('YYYY-MM-DD HH:mm');
     const islandPage = '/public/island-messages.html?id=' + msg.IslandID;
     const self = cc('div', { id: util.itemID(msg.ID), classes: 'd-flex justify-content-start align-items-start MsgItem', children: [
             m('a').attr({ href: islandPage }).append(m('img').addClass('Avatar').attr({ src: '/public/avatar-default.jpg' })),
@@ -127,6 +127,7 @@ function MsgItem(msg) {
         if (island.Email) {
             NameElem.append(m('span').text(island.Email).addClass('small text-muted ms-1'));
         }
+        NameElem.append(m('span').text("  " + datetime).addClass('small text-muted ms-1'));
         const contentsElem = $(self.id).find('.Contents');
         const contents = util.contentsWithLinks(msg.Body);
         if (typeof contents == 'string') {

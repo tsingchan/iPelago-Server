@@ -195,7 +195,7 @@ function getMessages(): void {
 
 function MsgItem(msg: util.Message): mjComponent {
   const MsgAlerts = util.CreateAlerts();
-  const datetime = dayjs.unix(msg.Time).format('YYYY-MM-DD HH:mm:ss');
+  const datetime = dayjs.unix(msg.Time).format('YYYY-MM-DD HH:mm');
   const self = cc('div', {id:util.itemID(msg.ID), children:[
     m('div').addClass('small text-muted').append([
       span(datetime),
