@@ -14,15 +14,15 @@ const TitleArea = cc('div', {
     ]
 });
 const HowToPublish = cc('div', { children: [
-        m('div').text('可任意选择以下其中一种方法发布至 iPelago 网络供他人订阅：'),
+        m('div').text('可任意选择以下其中一种方法发布至 micro 网络供他人订阅：'),
         m('ol').append([
             m('li').append([
                 span('把小岛地址 '), span(location.origin + jsonFile).addClass('bg-light'),
-                span(' 提交至 '), m('a').text('ipelago.org').attr({ href: 'https://ipelago.org', target: '_blank' }), span(' 即可。'),
+                span(' 提交至 '), m('a').text('micro.9ong.com').attr({ href: 'http://micro.9ong.com', target: '_blank' }), span(' 即可。'),
             ]),
             m('li').append([
                 span('利用第三方免费平台，参考教程: '),
-                m('a').text('https://ipelago.org/public/how-to-publish.html').attr({ href: 'https://ipelago.org/public/how-to-publish.html', target: '_blank' }),
+                m('a').text('http://micro.9ong.com/public/how-to-publish.html').attr({ href: 'https://micro.9ong.com/public/how-to-publish.html', target: '_blank' }),
             ]),
         ]),
     ] });

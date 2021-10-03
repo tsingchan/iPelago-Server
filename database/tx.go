@@ -7,9 +7,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/ahui2016/iPelago-Server/model"
-	"github.com/ahui2016/iPelago-Server/stmt"
-	"github.com/ahui2016/iPelago-Server/util"
+	"microblog/model"
+	"microblog/stmt"
+	"microblog/util"
 )
 
 type TX interface {

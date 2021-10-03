@@ -37,8 +37,8 @@ const MoreBtnArea = cc('div', { classes: 'text-center my-5', children: [
         m(MoreBtn).text('More').on('click', getPublicMessages),
     ] });
 const BottomLine = cc('div', { classes: 'text-center fw-light small text-secondary mb-3', children: [
-        m('a').text('https://github.com/ahui2016/iPelago-Server').addClass('link-secondary')
-            .attr({ href: 'https://github.com/ahui2016/iPelago-Server', target: '_blank' }),
+        m('a').text('http://micro.9ong.com/').addClass('link-secondary')
+            .attr({ href: 'http://micro.9ong.com/', target: '_blank' }),
         m('i').addClass('bi bi-box-arrow-up-right ms-1'),
     ] });
 $('#root').append([

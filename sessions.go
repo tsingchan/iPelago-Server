@@ -11,8 +11,8 @@ import (
 )
 
 const (
-	sessionName    = "ipelago-server-session"
-	cookieLogin    = "ipelago-server-cookie-login"
+	sessionName    = "micro-server-session"
+	cookieLogin    = "micro-server-cookie-login"
 	passwordMaxTry = 3
 )
 

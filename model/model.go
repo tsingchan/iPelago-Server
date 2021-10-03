@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ahui2016/iPelago-Server/util"
+	"microblog/util"
 )
 
 const (

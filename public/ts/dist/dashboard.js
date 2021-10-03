@@ -23,8 +23,8 @@ const Index = cc('div', { children: [
             m('div').addClass('small text-secondary text-center my-5').append([
                 span('version 2021-09-17'),
                 m('br'),
-                m('a').text('https://github.com/ahui2016/iPelago-Server').addClass('small text-secondary')
-                    .attr({ href: 'https://github.com/ahui2016/iPelago-Server', target: '_blank' }),
+                m('a').text('http://9ong.com/').addClass('small text-secondary')
+                    .attr({ href: 'http://9ong.com/', target: '_blank' }),
                 m('i').addClass('small bi bi-box-arrow-up-right ms-1'),
             ]),
         ]),

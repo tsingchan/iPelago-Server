@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ahui2016/iPelago-Server/model"
-	"github.com/ahui2016/iPelago-Server/util"
 	"github.com/labstack/echo-contrib/session"
 	"github.com/labstack/echo/v4"
+	"microblog/model"
+	"microblog/util"
 )
 
 // Text 用于向前端返回一个简单的文本消息。

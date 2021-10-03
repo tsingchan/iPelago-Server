@@ -1,4 +1,4 @@
-module github.com/ahui2016/iPelago-Server
+module microblog
 
 go 1.16
 

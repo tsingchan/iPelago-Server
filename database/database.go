@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ahui2016/iPelago-Server/model"
-	"github.com/ahui2016/iPelago-Server/stmt"
-	"github.com/ahui2016/iPelago-Server/util"
 	_ "github.com/mattn/go-sqlite3"
+	"microblog/model"
+	"microblog/stmt"
+	"microblog/util"
 )
 
 // 每一页有多少条消息。注意：如果修改该数值，同时需要修改 util.ts 中的 everyPage

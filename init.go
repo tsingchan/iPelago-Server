@@ -4,9 +4,9 @@ import (
 	"flag"
 	"net/http"
 
-	"github.com/ahui2016/iPelago-Server/database"
-	"github.com/ahui2016/iPelago-Server/model"
-	"github.com/ahui2016/iPelago-Server/util"
+	"microblog/database"
+	"microblog/model"
+	"microblog/util"
 )
 
 const (
@@ -14,7 +14,7 @@ const (
 )
 
 const (
-	dbFileName = "ipelago_server.db"
+	dbFileName = "micro_server.db"
 )
 
 type (
@@ -26,7 +26,7 @@ var secretKey []byte
 
 var (
 	db   = new(database.DB)
-	addr = flag.String("addr", "127.0.0.1:80", "IP address of the server")
+	addr = flag.String("addr", "127.0.0.1:9900", "IP address of the server")
 	demo = flag.Bool("demo", false, "set this flag for demo")
 )
 

@@ -1,7 +1,7 @@
 import { m, cc } from './mj.js';
 import * as util from './util.js';
 let lastPage = util.getUrlParam('lastpage');
-const title = m('div').text('iPelago Online').addClass('display-4 my-5 text-center');
+const title = m('div').text('micro Online').addClass('display-4 my-5 text-center');
 const Alerts = util.CreateAlerts();
 const DashBtn = cc('a', { classes: 'btn btn-primary me-3' });
 const LogoutBtn = cc('button', { classes: 'btn btn-outline-primary' });
